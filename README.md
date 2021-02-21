@@ -4,6 +4,9 @@
 
 This is a simple web authentication web application via Twitter OAuth. Please feel free to fork this and build your own application. If you have any questions, please feel free to send me an issue or a pull request.
 
+More information to get Twitter consumer key and secret:
+https://developer.twitter.com/en/docs/authentication/guides/log-in-with-twitter 
+
 ### Demo
 
 ![Demo](client/src/images/demo.gif)
@@ -16,6 +19,7 @@ Run on express server
 
 ```
 cd server/
+yarn install
 nodemon index.js
 ```
 
